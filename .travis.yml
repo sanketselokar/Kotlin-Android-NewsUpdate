@@ -1,0 +1,16 @@
+language: android
+env:
+  global:
+    # Otherwise lintVital task will blow up
+    GRADLE_OPTS="$GRADLE_OPTS -XX:MaxPermSize=256m"  
+android:
+  components:
+  - build-tools-23.0.1
+  - android-23
+  - extra-android-support
+  - extra-android-m2repository
+  
+script:
+- ./gradlew :app:assembleRelease
+before_install:
+ - chmod +x gradlew

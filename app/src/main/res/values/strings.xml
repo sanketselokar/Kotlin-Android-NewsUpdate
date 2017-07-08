@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NEWS_Kotlin</string>
+    <string name="drawer_home">HOME</string>
+    <string name="drawer_preferences">SETTINGS</string>
+
+    <string name="drawer_open">OPEN</string>
+    <string name="drawer_close">CLOSE</string>
+
+    <string name="nav_header_usr_name">Sanket Selokar</string>
+    <string name="nav_header_usr_address">sanket.selokar@gmail.com</string>
+</resources>
